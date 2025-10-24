@@ -4,6 +4,15 @@ import { Text, View, Image, StyleSheet } from "react-native";
 interface RenderMyProductsProps {
     product: Product;
 }
+
+function formatCurrency(value: number): string {
+    const formatToNaira = new Intl.NumberFormat('en-NG', {
+        style: 'currency',
+        currency: 'NGN',
+        })
+        return formatToNaira.format(value)
+}
+
 export default function RenderMyProducts({ product }: RenderMyProductsProps) {
 
     if (!product) return
@@ -13,7 +22,7 @@ export default function RenderMyProducts({ product }: RenderMyProductsProps) {
         <View style={styles.container}>
             {product.imageUrl ? <Image source={{ uri: product.imageUrl }} style={styles.image} /> : ""}
             <Text style={styles.name}>{product.name}</Text>
-            <Text style={styles.price}>₦{Math.floor(product.price)}</Text>
+            <Text style={styles.price}>{formatCurrency(product.price)}</Text>
             <Text style={styles.category}>{product.category}</Text>
             <Text style={styles.stock}>
                 {product.inStock ? "In Stock" : "Out of Stock"}

@@ -1,0 +1,24 @@
+{
+  "name": "amqey-test-david-bayode",
+  "version": "1.0.0",
+  "description": "Root folder of mobile backend(express) and frontend(react native)",
+  "homepage": "https://github.com/David4bay/Amqey-test-david-bayode#readme",
+  "bugs": {
+    "url": "https://github.com/David4bay/Amqey-test-david-bayode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David4bay/Amqey-test-david-bayode.git"
+  },
+  "license": "ISC",
+  "author": "David Bayode",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests",
+    "boot": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
