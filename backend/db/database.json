@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Wireless Bluetooth Headphones",
       "description": "Premium over-ear headphones with active noise cancellation and 30-hour battery life",
       "price": 89000,
@@ -11,7 +11,7 @@
       "createdAt": "2024-01-15T10:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Organic Cotton T-Shirt",
       "description": "Soft and comfortable 100% organic cotton t-shirt in classic fit",
       "price": 24000,
@@ -21,7 +21,7 @@
       "createdAt": "2024-01-16T09:15:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Stainless Steel Water Bottle",
       "description": "Insulated water bottle keeps drinks cold for 24 hours or hot for 12 hours",
       "price": 32000,
@@ -31,7 +31,7 @@
       "createdAt": "2024-01-17T14:22:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Yoga Mat Premium",
       "description": "Extra thick 6mm yoga mat with non-slip surface and carrying strap",
       "price": 45000,
@@ -41,7 +41,7 @@
       "createdAt": "2024-01-18T11:45:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Ceramic Coffee Mug Set",
       "description": "Set of 4 handcrafted ceramic mugs with elegant design, dishwasher safe",
       "price": 38000,
@@ -51,7 +51,7 @@
       "createdAt": "2024-01-19T08:30:00Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "LED Desk Lamp",
       "description": "Adjustable LED lamp with touch controls and USB charging port",
       "price": 54000,
@@ -61,7 +61,7 @@
       "createdAt": "2024-01-20T13:10:00Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Running Shoes Men's",
       "description": "Lightweight running shoes with cushioned sole and breathable mesh upper",
       "price": 78000,
@@ -71,7 +71,7 @@
       "createdAt": "2024-01-21T10:05:00Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Leather Wallet",
       "description": "Genuine leather bifold wallet with RFID protection and card slots",
       "price": 42000,
@@ -81,7 +81,7 @@
       "createdAt": "2024-01-22T15:40:00Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Plant-Based Protein Powder",
       "description": "Organic vegan protein powder with 20g protein per serving, chocolate flavor",
       "price": 34000,
@@ -91,7 +91,7 @@
       "createdAt": "2024-01-23T09:20:00Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Bamboo Cutting Board",
       "description": "Large eco-friendly bamboo cutting board with juice groove",
       "price": 28000,
@@ -101,7 +101,7 @@
       "createdAt": "2024-01-24T12:55:00Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Mechanical Keyboard",
       "description": "RGB backlit mechanical keyboard with blue switches and aluminum frame",
       "price": 119000,
@@ -111,7 +111,7 @@
       "createdAt": "2024-01-25T08:15:00Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Denim Jeans Classic",
       "description": "Comfortable stretch denim jeans in classic blue wash",
       "price": 56000,
@@ -121,7 +121,7 @@
       "createdAt": "2024-01-26T14:30:00Z"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Essential Oil Diffuser",
       "description": "Ultrasonic aromatherapy diffuser with LED lights and auto shut-off",
       "price": 39000,
@@ -131,7 +131,7 @@
       "createdAt": "2024-01-27T11:00:00Z"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Backpack Laptop",
       "description": "Water-resistant laptop backpack with padded compartment for 15-inch laptops",
       "price": 64000,
@@ -141,7 +141,7 @@
       "createdAt": "2024-01-28T10:45:00Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Smart Watch Fitness Tracker",
       "description": "Fitness smartwatch with heart rate monitor and sleep tracking",
       "price": 149000,
@@ -151,7 +151,7 @@
       "createdAt": "2024-01-29T13:20:00Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Resistance Bands Set",
       "description": "Set of 5 resistance bands with handles and door anchor for home workouts",
       "price": 29000,
@@ -161,7 +161,7 @@
       "createdAt": "2024-01-30T09:35:00Z"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Hooded Sweatshirt",
       "description": "Cozy fleece-lined hoodie with kangaroo pocket and adjustable drawstring",
       "price": 44000,
@@ -171,7 +171,7 @@
       "createdAt": "2024-01-31T15:10:00Z"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Air Purifier HEPA",
       "description": "HEPA air purifier removes 99.97% of airborne particles, covers 500 sq ft",
       "price": 189000,
@@ -181,7 +181,7 @@
       "createdAt": "2024-02-01T08:50:00Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Sunglasses Polarized",
       "description": "UV400 polarized sunglasses with durable metal frame",
       "price": 52000,
@@ -191,7 +191,7 @@
       "createdAt": "2024-02-02T12:25:00Z"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Vitamin D3 Supplements",
       "description": "High-potency vitamin D3 5000 IU softgels, 120-count bottle",
       "price": 18000,
@@ -201,7 +201,7 @@
       "createdAt": "2024-02-03T10:15:00Z"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Wireless Mouse",
       "description": "Ergonomic wireless mouse with adjustable DPI and rechargeable battery",
       "price": 34000,
@@ -211,7 +211,7 @@
       "createdAt": "2024-02-04T14:40:00Z"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Cast Iron Skillet",
       "description": "Pre-seasoned 12-inch cast iron skillet with heat-resistant handle",
       "price": 48000,
@@ -221,7 +221,7 @@
       "createdAt": "2024-02-05T09:05:00Z"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Athletic Shorts",
       "description": "Moisture-wicking athletic shorts with zippered pockets",
       "price": 26000,
@@ -231,7 +231,7 @@
       "createdAt": "2024-02-06T11:30:00Z"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Foam Roller",
       "description": "High-density foam roller for muscle recovery and massage",
       "price": 22000,
@@ -241,7 +241,7 @@
       "createdAt": "2024-02-07T13:55:00Z"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Canvas Tote Bag",
       "description": "Heavy-duty canvas tote bag with reinforced handles, perfect for shopping",
       "price": 19000,
@@ -251,7 +251,7 @@
       "createdAt": "2024-02-08T08:20:00Z"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Portable Bluetooth Speaker",
       "description": "Waterproof Bluetooth speaker with 12-hour battery life and bass boost",
       "price": 59000,
@@ -261,7 +261,7 @@
       "createdAt": "2024-02-09T15:45:00Z"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Green Tea Extract",
       "description": "Organic green tea extract capsules with antioxidants, 90-count",
       "price": 21000,
@@ -271,7 +271,7 @@
       "createdAt": "2024-02-10T10:10:00Z"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Stainless Steel Cookware Set",
       "description": "10-piece stainless steel cookware set with tempered glass lids",
       "price": 224000,
@@ -281,7 +281,7 @@
       "createdAt": "2024-02-11T12:35:00Z"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Winter Beanie",
       "description": "Soft knit beanie hat with fleece lining for cold weather",
       "price": 16000,
@@ -291,7 +291,7 @@
       "createdAt": "2024-02-12T09:50:00Z"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Jump Rope Speed",
       "description": "Adjustable speed jump rope with ball bearings and foam handles",
       "price": 14000,
@@ -301,7 +301,7 @@
       "createdAt": "2024-02-13T14:15:00Z"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Crossbody Bag Leather",
       "description": "Compact leather crossbody bag with adjustable strap",
       "price": 68000,
@@ -311,7 +311,7 @@
       "createdAt": "2024-02-14T11:40:00Z"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "USB-C Hub Multi-Port",
       "description": "7-in-1 USB-C hub with HDMI, USB 3.0, and SD card reader",
       "price": 46000,
@@ -321,7 +321,7 @@
       "createdAt": "2024-02-15T08:25:00Z"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Probiotic Supplements",
       "description": "Multi-strain probiotic with 50 billion CFU for digestive health",
       "price": 32000,
@@ -331,7 +331,7 @@
       "createdAt": "2024-02-16T13:05:00Z"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Blender High-Speed",
       "description": "1500W high-speed blender with glass jar and multiple speed settings",
       "price": 129000,
@@ -341,7 +341,7 @@
       "createdAt": "2024-02-17T10:30:00Z"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Flannel Shirt",
       "description": "Classic plaid flannel shirt in soft brushed cotton",
       "price": 38000,
@@ -351,7 +351,7 @@
       "createdAt": "2024-02-18T15:20:00Z"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Kettlebell 20lb",
       "description": "Cast iron kettlebell with wide handle for strength training",
       "price": 42000,
@@ -361,7 +361,7 @@
       "createdAt": "2024-02-19T09:45:00Z"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Baseball Cap",
       "description": "Adjustable cotton baseball cap with embroidered logo",
       "price": 22000,
@@ -371,7 +371,7 @@
       "createdAt": "2024-02-20T12:10:00Z"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Webcam HD 1080p",
       "description": "Full HD webcam with built-in microphone and auto-focus",
       "price": 74000,
@@ -381,7 +381,7 @@
       "createdAt": "2024-02-21T08:35:00Z"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Collagen Peptides Powder",
       "description": "Grass-fed collagen peptides powder for skin, hair, and joint health",
       "price": 44000,
@@ -391,7 +391,7 @@
       "createdAt": "2024-02-22T14:00:00Z"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Dish Rack Stainless Steel",
       "description": "Large capacity dish drying rack with utensil holder and drainboard",
       "price": 36000,
@@ -401,7 +401,7 @@
       "createdAt": "2024-02-23T11:25:00Z"
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Cargo Pants",
       "description": "Tactical cargo pants with multiple pockets and reinforced knees",
       "price": 54000,
@@ -411,7 +411,7 @@
       "createdAt": "2024-02-24T09:15:00Z"
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Exercise Ball 65cm",
       "description": "Anti-burst exercise ball with pump for yoga and fitness",
       "price": 24000,
@@ -421,7 +421,7 @@
       "createdAt": "2024-02-25T13:40:00Z"
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "Watch Band Silicone",
       "description": "Replacement silicone watch band compatible with most smartwatches",
       "price": 12000,
@@ -431,7 +431,7 @@
       "createdAt": "2024-02-26T10:55:00Z"
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "Power Bank 20000mAh",
       "description": "High-capacity portable charger with dual USB ports and LED display",
       "price": 39000,
@@ -441,7 +441,7 @@
       "createdAt": "2024-02-27T15:30:00Z"
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "Omega-3 Fish Oil",
       "description": "Triple strength omega-3 fish oil with EPA and DHA, 180 softgels",
       "price": 28000,
@@ -451,7 +451,7 @@
       "createdAt": "2024-02-28T08:45:00Z"
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "Food Storage Container Set",
       "description": "Glass food storage containers with snap-lock lids, set of 10",
       "price": 42000,
@@ -461,7 +461,7 @@
       "createdAt": "2024-02-29T12:20:00Z"
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "Cardigan Sweater",
       "description": "Lightweight button-up cardigan sweater in soft knit fabric",
       "price": 48000,
@@ -471,7 +471,7 @@
       "createdAt": "2024-03-01T10:05:00Z"
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "Dumbbell Set Adjustable",
       "description": "Adjustable dumbbell set 5-25 lbs with storage tray",
       "price": 159000,
@@ -481,7 +481,7 @@
       "createdAt": "2024-03-02T14:50:00Z"
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "Scarf Winter Wool",
       "description": "Extra long wool blend scarf with fringe detail",
       "price": 31000,
@@ -491,7 +491,7 @@
       "createdAt": "2024-03-03T09:30:00Z"
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Phone Stand Adjustable",
       "description": "Foldable aluminum phone stand compatible with all smartphones and tablets",
       "price": 18000,

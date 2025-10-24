@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "directories": {
-    "test": "tests",
+    "test": "cd backend",
     "boot": ""
   },
   "scripts": {

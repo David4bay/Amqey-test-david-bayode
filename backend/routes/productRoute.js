@@ -12,13 +12,12 @@ const {
 
 productRoute.get("/products", getProducts)
 
-productRoute.post("products", postProducts)
-
 productRoute.get("/products/:id", getProduct)
+
+productRoute.post("/products", postProducts)
 
 productRoute.put("/products/:id", putProduct)
 
-productRoute.delete("/product/:id", deleteProduct)
-
+productRoute.delete("/products/:id", deleteProduct)
 
 module.exports = productRoute
