@@ -27,6 +27,7 @@ async function getProducts(_, response) {
 
 function postProducts(request, response) {
 
+    
 }
 
 function getProduct(request, response) {
