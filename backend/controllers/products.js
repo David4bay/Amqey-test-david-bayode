@@ -19,15 +19,22 @@ async function getProducts(_, response) {
             data: products
         })
     } catch(error) {
-        return response.status(500).json({
-            error: "request unknown."
+        return response.status(400).json({
+            error: "Unable to process request."
         })
     }
 }
 
 function postProducts(request, response) {
+    const productInfo = request.body
 
-    
+    try {
+
+    } catch (error) {
+        return response.status(400).json({
+            error: ""
+        })
+    }
 }
 
 function getProduct(request, response) {

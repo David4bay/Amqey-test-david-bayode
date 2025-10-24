@@ -7,13 +7,13 @@ function requestLogger(request, _, next) {
     next()
 }
 
-function unknownEndpoint(request, response) {
+function unknownEndpoint(_, response) {
     return response.status(404).json({
         error: "unknown endpoint"
     })
 }
 
-function errorHandler(request, response, next) {
+function errorHandler(_, response, next) {
     logger.error(error.message)
 
     error.name = error.name.toLowerCase()
