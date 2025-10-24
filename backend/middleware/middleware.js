@@ -17,7 +17,7 @@ function errorHandler(_, response, next) {
     logger.error(error.message)
 
     error.name = error.name.toLowerCase()
-
+// remember to add json login to mobile end 
     switch(error.name) {
         case "tokenexpirederror":
             return response.status(401).json({

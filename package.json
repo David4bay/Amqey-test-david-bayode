@@ -15,10 +15,19 @@
   "type": "commonjs",
   "main": "index.js",
   "directories": {
-    "test": "cd backend",
-    "boot": ""
+    "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db": "cd backend && npm run db",
+    "backend": "cd backend && npm run dev",
+    "mobile": "cd mobile && npm start",
+    "all": "npm-run-all --parallel db backend mobile",
+    "install": "npm-run-all --parallet db-install backend-install mobile-install",
+    "db-install": "cd backend && npm install",
+    "backend-install": "cd backend && npm install",
+    "mobile-install": "cd mobile && npm install"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }

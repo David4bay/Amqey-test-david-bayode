@@ -32,7 +32,7 @@ async function postProducts(request, response) {
     try {
         
         const productInfo = request.body
-        console.log("productInfo", productInfo)
+        // console.log("productInfo", productInfo)
 
         if (!productInfo || !productInfo.name || typeof productInfo.name !== "string") {
             return response.status(400).json({
@@ -74,7 +74,7 @@ async function getProduct(request, response) {
     try {
 
     const singleProductId = request.params.id
-    console.log("singleProductId", singleProductId)
+    // console.log("singleProductId", singleProductId)
     
 
     if (!singleProductId) {
@@ -84,7 +84,7 @@ async function getProduct(request, response) {
     }
 
     const canFindProduct = await axios.get(`${dbServer}/${singleProductId}`)
-    console.log("canFindProduct", canFindProduct)
+    // console.log("canFindProduct", canFindProduct)
     if (!canFindProduct.data) {
         return response.status(404).json({
             error: "unable to find product."
@@ -140,7 +140,7 @@ async function putProduct(request, response) {
         })
     }
 
-    console.log("modifyProduct", modifyProduct.data)
+    // console.log("modifyProduct", modifyProduct.data)
     
     if (!modifyProduct.data) {
         return response.status(400).json({
@@ -171,7 +171,7 @@ async function deleteProduct(request, response) {
                 error: "product id is invalid."
             })
         }
-        console.log("reached here")
+        // console.log("reached here")
         const findProduct = await axios.get(`${dbServer}/${productId}`)
 
         if (!findProduct.data) {

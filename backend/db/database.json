@@ -497,7 +497,7 @@
       "price": 18000,
       "category": "Electronics",
       "imageUrl": "https://picsum.photos/seed/product50/400/400",
-      "inStock": true,
+      "inStock": false,
       "createdAt": "2024-03-04T11:15:00Z"
     }
   ]
