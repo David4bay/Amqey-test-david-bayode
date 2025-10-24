@@ -6,7 +6,15 @@ This is my solution to the AMQEY developer test.
 
 - [Installation](#installation)
 
-### Installation
+## Testing
+
+To test the backend, navigate to the backend folder: `cd backend`
+
+Install dependencies: `npm install`
+
+Run the test using: `npm test`
+
+## Installation
 
 Clone the project using:
     `git clone https://github.com/David4bay/Amqey-test-david-bayode.git`
