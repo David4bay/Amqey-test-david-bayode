@@ -7,22 +7,23 @@ export interface Product {
     imageUrl: string  
     inStock: boolean 
     createdAt: string | Date
+    own?: boolean
 }
 
 const API_URL = "http://localhost:3000/api"
 
 export async function getProducts(): Promise<Product[]> {
     const response = await fetch(`${API_URL}/products`)
-    const data = await response.json()
+    const product = await response.json()
 
-    return data
+    return product.data
 }
 
 export async function getProduct(id: string): Promise<Product> {
     const response = await fetch(`${API_URL}/products/${id}`)
-    const data = await response.json()
+    const product = await response.json()
 
-    return data
+    return product.data
 }
 
 export async function postProducts(payload: Product): Promise<any> {

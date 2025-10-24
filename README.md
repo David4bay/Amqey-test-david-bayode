@@ -24,3 +24,7 @@ Run json-server to create local json database:
     `npm run db`
 
 This creates a database for products on `http://localhost:3001/products`
+
+- Running the application
+
+With the backend dependencies installed and mobile react native dependencies installed,

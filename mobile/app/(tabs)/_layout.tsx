@@ -1,6 +1,5 @@
 import { Tabs } from "expo-router"
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
-import Ionicons from '@expo/vector-icons/Ionicons';
 
 export default function TabsLayout() {
     return (
@@ -29,19 +28,6 @@ export default function TabsLayout() {
                     size={size} 
                     color={color} 
                     />
-                )
-            }}
-            />
-            <Tabs.Screen
-            name="search/index"
-            options={{
-                headerTitle: "Search for a product",
-                title: "Search",
-                tabBarIcon: ({size, color}) => (
-                    <Ionicons name="search" 
-                    size={size} 
-                    color={color}
-                     />
                 )
             }}
             />
