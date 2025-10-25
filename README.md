@@ -25,7 +25,7 @@ In the root folder where the backend and mobile folders are located run: `npm ru
 
 - Global Dev Run
 
-In the root folder where the backend and mobile folders are located run: `npm run all`
+In the root folder where the backend and mobile folders are located run: `npm run all` , when Metro Bundler starts, select the platform to run the react native app.
 
 - Backend Installation:
 

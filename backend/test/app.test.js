@@ -68,7 +68,7 @@ describe("can modify a product", () => {
       "createdAt": "2024-03-04T11:15:00Z"
     }
 
-    const dummyDat2a =  {
+    const dummyDat2 =  {
       "id": "50",
       "name": "Phone Stand Adjustable",
       "description": "Foldable aluminum phone stand compatible with all smartphones and tablets",
